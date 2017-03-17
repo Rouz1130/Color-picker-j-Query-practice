@@ -1,0 +1,41 @@
+.green-background ,.btn-success-lg{
+  background-color: green;
+
+}
+
+.yellow-background, .btn-warning-lg {
+  background-color: yellow;
+}
+
+.red-background, .btn-danger-lg {
+  background-color: red;
+}
+
+.clear-background-lg {
+  background-color: #FFFFFF;
+}
+
+.blue-background, .btn-primary-lg {
+  background-color: #0000FF;
+}
+
+.orange-background, .btn-orange-lg {
+  background-color: #FFA500;
+}
+.pink-background, .btn-pink-lg {
+  background-color: #FFC0CB;
+}
+
+h1, p {
+  text-align: center;
+  font-family: fantasy;
+  text-shadow: #5F5C5C  0.2em 0.2em 0.2em;
+}
+
+h1{
+  font-size: 40px;
+}
+
+.container {
+  text-align: center;
+}

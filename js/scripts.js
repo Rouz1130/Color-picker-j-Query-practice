@@ -1,22 +1,38 @@
-// this new line is so that our script tags in our html can run until the document is finished loading.
-$(document).ready(function(){
-  $("H1").click(function(){
-    // alert is a callback function.
-    alert("This is a header.");
-  });
-  // we pass $("h1") function to the .click mehtod fucntion. this is called a callback when we pass a function as an argument to another function.
-
-
-
-  // JQuery  selects HTML elembernts on the page base on the argument passed in. example below is a p therefore all p tags are clickable.
-
-  // the click method attaced is an event handler.
-  $("p").click(function(){
-
-    alert("This is a paragraph.");
+$(document).ready(function() {
+  $("button#green").click(function() {
+    $("body").removeClass();
+    $("body").addClass("green-background");
   });
 
-  $("img").click(function(){
-    alert("This is an image.");
+$("button#yellow").click(function() {
+  $("body").removeClass();
+  $("body").addClass("yellow-background");
+});
+
+$("button#red").click(function() {
+  $("body").removeClass();
+  $("body").addClass("red-background");
+
+$("button#blue").click(function() {
+  $("body").removeClass();
+  $("body").addClass("blue-background");
+});
+
+$("button#orange").click(function (){
+  $("body").removeClass();
+  $("body").addClass("orange-background");
+});
+
+$("button#pink").click(function() {
+  $("body").removeClass();
+  $("body").addClass("pink-background");
+});
+
+  $("button#clear").click(function() {
+    $("body").removeClass();
+    $("body").addClass("clear-background");
   });
+
+
+ });
 });
